@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do App</title>
+
+    <style>
+      #title {
+        padding: 50px;
+        background: steelblue;
+        color: white;
+        margin-top: 0;
+      }
+
+      .form {
+        margin: auto;
+        text-align: center;
+      }
+
+      #label,
+      #task,
+      #submit {
+        font-size: 1.2rem;
+        margin-left: 10px;
+      }
+
+      #submit {
+        width: 200px;
+      }
+
+      .taskTable {
+        margin: auto;
+        margin-top: 30px;
+        width: 37rem;
+        height: 50px;
+        border: 1px solid black;
+      }
+
+      #taskRow {
+        width: 350px;
+      }
+
+      .innerBtns,
+      #submit {
+        background: steelblue;
+        color: white;
+        border: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="title">TO-DO APPLICATION</h1>
+
+    <div class="form">
+      <label id="label" for="task">Add Your Task: </label>
+      <input id="task" type="text" />
+      <button id="submit">Add</button>
+    </div>
+
+    <table class="taskTable">
+      <tr>
+        <th id="taskRow">Tasks</th>
+        <th>Mark as complete</th>
+        <th>Remove</th>
+      </tr>
+    </table>
+
+    <script type="text/javascript" src="./script.js"></script>
+  </body>
+</html>
