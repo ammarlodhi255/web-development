@@ -1,0 +1,37 @@
+body {
+  font-family: sans-serif;
+}
+
+header {
+  margin-top: 0;
+  height: 17vh;
+  background: rgb(228, 113, 95);
+  box-sizing: border-box;
+  padding: 18px 360px;
+  border-radius: 10px;
+}
+
+#header-title {
+  color: white;
+  font-size: 1.5em;
+  font-weight: 0;
+  letter-spacing: 10px;
+}
+
+nav {
+  margin-left: 50px;
+}
+
+.btn {
+  border-radius: 5px;
+  background: white;
+  width: 90px;
+  height: 20px;
+  border: 0px solid transparent;
+  background: linear-gradient(to right, white 80%, red 10%);
+  text-align: left;
+}
+
+.btn:hover {
+  width: 120px;
+}

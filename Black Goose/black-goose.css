@@ -1,0 +1,44 @@
+body {
+  background: rgb(250, 243, 228);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.page {
+  margin: 0 auto;
+  width: 70vw;
+}
+
+#main-img {
+  margin: 0 auto;
+  width: 400px;
+  height: 200px;
+  display: block;
+}
+
+#title {
+  text-transform: uppercase;
+}
+
+hr {
+  background: rgb(111, 176, 230);
+  height: 0.1px;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+ul h4 {
+  color: rgb(227, 146, 103);
+}
+
+ul p {
+  font-size: 0.9em;
+  font-weight: 600;
+}
