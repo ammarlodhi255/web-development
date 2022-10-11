@@ -1,0 +1,53 @@
+body {
+    font-family: 'Red Hat Mono',
+        monospace;
+}
+
+main .row {
+    margin-top: 5%;
+
+}
+.web-logo {
+        text-align: center;
+}
+
+.logo {
+    width: 10%;
+    height: 100px;
+}
+
+.order-panel {
+    background: rgb(212,
+    40,
+    20);
+    color: white;
+}
+
+.order-recipe {
+    margin: 20px;
+    width: 100%;
+    height: 300px;
+}
+
+.btn-warning {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.info, .footer {
+    background-color: rgb(244,
+    183,
+    120);
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+.img1 > img {
+    width: 100%;
+    height: 300px;
+}
+
+.contact > ul {
+    list-style-type: none;
+}
