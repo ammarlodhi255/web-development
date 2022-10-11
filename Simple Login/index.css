@@ -1,0 +1,26 @@
+body {
+    font-family: 'Red Hat Mono',
+    monospace;
+}
+
+.login-form {
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-top: 20px;
+    background: rgb(108, 117, 125);
+    margin: 0 auto;
+    margin-top: 20vh;
+    width: 40vw;
+    height: 50vh;
+    border-radius: 10px;
+}
+
+.mb-3 {
+    width: 96%;
+}
+
+.btn-info {
+    margin-top: 20px;
+    background: rgb(105, 187, 220);
+    width: 96%;
+}
