@@ -1,0 +1,35 @@
+body {
+    font-family: 'Red Hat Mono',
+        monospace;
+}
+
+.side-bar {
+    float: left;
+    width: 30vw;
+}
+
+.list-group-item {
+    width: 30vw;
+    color: rgb(37, 137, 203);
+    font-weight: 600;
+    border: 0px solid transparent;
+}
+
+.main-content {
+    width: 65vw;
+    margin-left: 32vw;
+}
+
+.quote {
+    padding-left: 20px;
+    border-left: 3px solid rgb(224, 220, 220);
+}
+
+#beet-quote {
+    font-size: 0.8em;
+}
+
+.card {
+    display: inline-block;
+    margin-left: 0;
+}
