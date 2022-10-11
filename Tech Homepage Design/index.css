@@ -1,0 +1,13 @@
+body {
+    font-family: 'Red Hat Mono',
+        monospace;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+.desc {
+    box-sizing: border-box;
+    padding: 60px;
+}
