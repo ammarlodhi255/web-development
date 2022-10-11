@@ -1,0 +1,174 @@
+.aside {
+    height: 70vh;
+    margin-top: 22px;
+}
+
+body {
+    background: rgb(241,
+    242,
+    247);
+}
+
+.image {
+    display: block;
+    margin-left: 35%;
+    border-radius: 50%;
+    background-image: url("https://www.w3schools.com/w3images/avatar2.png");
+    width: 30%;
+    height: 100px;
+    background-size: cover;
+}
+
+.name-email {
+    margin-top: 20px;
+}
+
+.profile {
+    padding-top: 30px;
+    background-color: rgb(250,
+        192,
+        46);
+        height: 300px;
+    text-align: center;
+    color: white;
+}
+
+.icon-post {
+    background-color: rgb(224, 224, 222);
+    padding: 20px;
+}
+
+.icon-post .fa-solid {
+    margin: 10px;
+}
+
+.icon-post .btn {
+    margin-left: 480px;
+    background-color: rgb(250,
+        192,
+        46);
+        border: transparent;    
+}
+
+.aside a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    background: rgb(248,
+        247,
+        245);
+        color: black;
+        width: 100%;
+}
+
+.aside li {
+    margin-top: 10px;
+    margin-left: 0;
+}
+
+.aside li:hover {
+  border-left: 5px solid rgb(250,
+    192,
+    46);;
+}
+
+.info-detail span {
+    margin-left: 30px;
+}
+
+.message {
+    margin-top: 30px;
+    display:block;
+    text-align: center;
+    /* text-align:center; */
+
+    padding: 30px;
+    background-color: rgb(250,
+        192,
+        46);
+        height: 120px;
+
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: white;
+}
+
+.message span {
+    margin: 0 20px 0 20px;
+}
+
+.icon-post a {
+    color: grey;
+}
+
+.bio {
+    padding: 20px;
+    color: grey;
+    background: white;
+}
+
+.bio ul {
+    display: inline-block;
+}
+
+.secondoftype {
+    margin-left: 230px;
+}
+
+.card {
+    display: inline-block;
+    width: 45%;
+    height: 100px;
+    margin-top: 20px;
+    border: transparent;
+    padding: 10px;
+    border-radius: 0px;
+}
+
+.card2, .card4 {
+    margin-left: 68.5px;
+}
+
+.num {
+    color: pink;
+    float: left;
+        padding-top: 27px;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    font-weight: bolder;
+}
+
+.info {
+    color: grey;
+}
+
+.name {
+color: pink;
+}
+
+.num1, .name1 {
+    color: steelblue;
+}
+
+.num2, .name2 {
+    color: green;
+}
+
+.num3, .name3 {
+    color: purple;
+}
+
+.profile-op, .info-detail {
+    margin: 0;
+    padding: 0;
+}
+
+.badge {
+    color: black;
+    margin-left: 170px;
+    background-color: rgb(250,
+        192,
+        46);
+    border-radius: 5px;
+}
