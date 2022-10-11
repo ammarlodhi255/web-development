@@ -1,0 +1,102 @@
+body {
+    font-family: 'Raleway',
+    sans-serif;
+    margin: 20px;
+}
+
+.title {
+    text-align: center;
+    font-weight: bolder;
+}
+
+.teams {
+    margin-top: 5%;
+}
+.team-box {
+    border: 1px solid grey;
+    height: 100px;
+    width: 13%;
+}
+
+.box-2 {
+    border-top: 2px solid rgb(255, 68, 92);
+    border-left: 2px solid rgb(255, 68,92);
+    border-right: 2px solid rgb(255, 68,92);
+    border-bottom: 0px solid transparent;
+
+}
+
+.plans-tag {
+    border-top: 2px solid rgb(255,
+            68,
+            92);
+}
+
+.team-box > h5 {
+    font-weight: bolder;
+}
+
+.plan {
+    text-align: center;
+}
+
+.plan > .header {
+    width: 100%;
+    background: black;
+    height: 50px;
+    box-sizing: border-box;
+    padding-top: 12px;
+}
+
+.plan h5 {
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+}
+
+.plan > .header-1 {
+    background-color: rgb(184,
+    173,
+    178);
+}
+
+.plan > .header-2 {
+    background-color: rgb(255,
+    68,
+    92);
+}
+.plan > .header-3 {
+    background-color: rgb(74,
+    59,
+    145);
+}
+.plan > .header-4 {
+    background-color: rgb(54,
+    70,
+    79);
+}
+
+div.plan.position-relative {
+    border:2px solid rgb(255, 68, 92);
+}
+
+.btn {
+    width: 80%;
+}
+
+.plan h6 {
+    padding-top: 10px;
+    font-size: 0.9rem;
+}
+
+.btn-primary {
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    width: 100%;
+}
+
+.btn-primary:hover, .btn-primary:active {
+    background: transparent;
+    color: black;
+}
