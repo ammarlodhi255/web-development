@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>LabExam</title>
+
+    <style>
+      #mainTable {
+        width: 700px;
+        height: 100px;
+      }
+
+      #btntd {
+        text-align: center;
+      }
+
+      #total {
+        font-weight: bolder;
+      }
+    </style>
+  </head>
+  <body>
+    <table id="mainTable" border="1px">
+      <tr>
+        <td><b>Product</b></td>
+        <td><b>Price</b></td>
+        <th colspan="4">Add to Cart</th>
+      </tr>
+
+      <tr>
+        <td>T-Shirt</td>
+        <td>Rs. 2000</td>
+        <td colspan="2" id="btntd"><button class="addBtn" onclick="updateCart(event)">Add to cart</button></td>
+      </tr>
+      <tr>
+        <td>Shoes</td>
+        <td>Rs. 7000</td>
+        <td colspan="2" id="btntd"><button class="addBtn" onclick="updateCart(event)"">Add to cart</button></td>
+      </tr>
+      <tr>
+        <td>Mobile Phone</td>
+        <td>Rs. 50000</td>
+        <td colspan="2" id="btntd">
+            <button class="addBtn" onclick="updateCart(event)">Add to cart</button>
+        </td>
+      </tr>
+
+      <tr rowspan="3">
+      </tr>
+
+      <tr>
+        <th colspan="4">Shopping Cart</th>
+      </tr>
+
+      <tr id="cartrow">
+        <th id="product">Product</th>
+        <th id="quantity">Quantity</th>
+        <th id="subtotal">Subtotal</th>
+        <th id="remove">Remove</th>
+      </tr>
+    </table>
+
+    <span id="total">Total: Rs. 0</span>
+    <script type="text/javascript" src="./script.js"></script>
+  </body>
+</html>
