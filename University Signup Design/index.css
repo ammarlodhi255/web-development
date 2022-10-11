@@ -1,0 +1,45 @@
+body {
+    font-family: 'Red Hat Mono',
+        monospace;
+}
+
+.signup {
+    float: left;
+    width: 50vw;
+    text-align: center;
+}
+
+.form-layout {
+    box-sizing: border-box;
+    width: 50vw;
+    margin-top: 50px;
+    padding-left: 20px;
+}
+
+.form-control-lg, .btn {
+    margin-top: 30px;
+}
+
+.btn {
+    width: 48vw;
+}
+
+.main-img {
+    border-radius: 10px;
+    margin-top: 2%;
+    margin-left: 2%;
+    width: 40vw;
+    height: 90vh;
+}
+
+
+#detail {
+    display: inline-block;
+}
+
+#iba-logo {
+    display: inline-block;
+    margin-left: 3%;
+    width: 210px;
+}
+
