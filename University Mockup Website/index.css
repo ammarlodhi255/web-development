@@ -1,0 +1,175 @@
+
+header, .footer {
+    background-image: url("https://www.iba-suk.edu.pk/Content/assets/img/building-1.jpg");
+}
+
+.header-top, .main-nav, .footer-nav {
+    background: rgba(15, 50, 85, 0.93);
+}
+
+.top-nav {
+    border-bottom: 0.001rem solid rgb(230, 219, 219);
+}
+
+.top-nav a {
+    font-size: 0.8em;
+    color: white;
+}
+
+.main-nav {
+    height: 30vh;
+}
+
+.btn-secondary {
+    background:rgb(15, 50, 85);
+    border: 0px solid transparent;
+}
+
+.logo {
+    margin: 3%;
+    max-width: 18rem;
+    height: 10rem;    
+    background-image: url("https://www.iba-suk.edu.pk/Content/assets/img/logo-white-transparent.png");  
+    background-size: cover;
+}
+
+.main-nav-items {
+    float: right;
+    margin-top: 60px;
+    margin-right: 10%;
+    list-style-type: none;
+}
+
+.main-nav-items li {
+    display: inline-block;
+}
+
+.main-nav-items a, .main-nav-items a:hover {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+button[type="button"] {
+    border: 1px solid grey;
+    background: transparent;
+    width: 10vw;
+}
+
+.contact {
+    margin-top: 10%;
+    color: white;
+    font-size: 0.8em;
+}
+
+.breadcrumb-nav {
+    margin-top: 1.2rem;
+    font-size: 0.8rem;
+}
+
+.display-6 {
+    font-weight: 400;
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+
+#break-title {
+    width: 2.4rem;
+    height: 0.12rem;
+}
+
+.id-faculty {
+    font-size: 1.3em;
+    letter-spacing: 1px;
+}
+
+.id-profs {
+    margin-top: 10%;
+    font-size: 1.3em;
+}
+
+.profile {
+    width: 14rem;
+    height: 10rem;
+    border: 0px solid transparent;
+}
+
+.departments{
+    padding-left: 0;    
+    padding-left: 3%;
+}
+
+.departments li {
+    color: rgb(46, 113, 169);   
+    margin-top: 3%;
+}
+
+.profile-body {
+    height: 10rem;
+}
+
+.prof-img {
+    width: 45px;
+    height: 50px;
+    background-size: cover;
+}
+
+.prof1 {
+        background-image: url("./imgs/INS-0285.jpg");
+}
+
+.prof2 {
+    background-image: url("./imgs/INS-0515.jpg");
+}
+
+.row-prof {
+    border: 1px solid grey;
+}
+
+.btn {
+    background: transparent;
+}
+
+.side-content {
+    margin-top: 5%;
+}
+
+.footer {
+    margin-top: 20%;
+}
+
+.rowaf {
+    margin-top: 32%;
+}
+
+.img {
+    width: 110%;
+    height: 150%;
+    cursor: pointer;
+    background-size: cover;
+}
+
+.img1 {
+    background-image: url("https://facultyimages.iba-suk.edu.pk/ADM-0089.jpg");
+}
+
+.img2 {
+    background-image: url("https://facultyimages.iba-suk.edu.pk/INS-0012.jpg");
+}
+
+.img3 {
+    background-image: url("https://facultyimages.iba-suk.edu.pk/INS-0002.jpg");
+}
+.img4 {
+    background-image: url("https://facultyimages.iba-suk.edu.pk/INS-0121.jpg");
+}
+.img5 {
+    background-image: url("https://facultyimages.iba-suk.edu.pk/INS-0150.jpg");
+}
+.img6 {
+    background-image: url("https://facultyimages.iba-suk.edu.pk/INS-0178.jpg");
+}
+.img7 {
+    background-image: url("https://facultyimages.iba-suk.edu.pk/INS-0285.jpg");
+}
+.img8 {
+    background-image: url("https://facultyimages.iba-suk.edu.pk/INS-0515.jpg");
+}
