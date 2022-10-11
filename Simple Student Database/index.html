@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Table</title>
+    <style>
+      input,
+      #add {
+        margin-top: 20px;
+      }
+
+      #add {
+        height: 23px;
+        width: 110px;
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Enter Details of The Student:</h1>
+    <form id="input-form">
+      <label for="name">Name: </label>
+      <input id="name" type="text" /> <br />
+      <label for="stdid">St. ID: </label>
+      <input id="stdid" type="text" /><br />
+      <label for="batch">Batch: </label>
+      <input id="batch" type="text" /><br />
+      <label for="gpa">GPA: </label>
+      <input id="gpa" type="text" /><br />
+    </form>
+
+    <button id="add">Add to table</button>
+    <table id="recordTable" border="1" width="600px">
+      <tr>
+        <th>S.No</th>
+        <th>Student Name</th>
+        <th>Student ID</th>
+        <th>Batch</th>
+        <th>GPA</th>
+        <th>Delete</th>
+      </tr>
+    </table>
+
+    <script type="text/javascript" src="./script.js"></script>
+  </body>
+</html>
