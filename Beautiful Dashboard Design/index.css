@@ -1,0 +1,63 @@
+.main {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.aside {
+    height: 100vh;
+    background-color: rgb(24,
+    146,
+    211);
+    color: white;
+}
+
+.dash {
+    padding: 10px;
+}
+
+.header {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 20px;
+}
+.searchbar {
+    background-color: rgb(225,
+    232,
+    240);
+    border: 1px solid transparent;
+    display: inline-block;
+    width: 80%;
+    height: 20px;
+    border-radius: 10px;
+}
+
+.profile-pic {
+    display: inline-block;
+    width: 20%;
+    height: 40px;
+    background-image: url("https://cdn.jpegmini.com/user/images/slider_puffin_jpegmini_mobile.jpg");
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.profile-name {
+    margin-left: 20px;  
+    font-weight: bolder;
+}
+
+.article {
+    background-color: rgb(225,
+        232,
+        240);
+    width: 75vw;
+    height: 86vh;
+}
+
+ul li a {
+    color: white; 
+    text-decoration: none;
+}
+
+ul li {
+margin-top: 15px;
+}

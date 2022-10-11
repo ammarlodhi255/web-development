@@ -1,0 +1,63 @@
+.main {
+    /* margin: 0;    */
+    width: 100vw;
+    height: 100vh;
+}
+
+.header {
+    padding: 20px;
+}
+
+.box {
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.title {
+    text-align: center;
+}
+
+.searchbar {
+    display: inline-block;
+    width: 80%;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    background-color: rgb(215, 222, 228);
+}
+
+.navbar {
+    text-align: center;
+    background-color: rgb(37,
+    37,
+    37);
+    color: white;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    letter-spacing: 5px;
+    margin: 10px;
+}
+
+.navbar a:hover {
+    color: red;
+    border-bottom: 1px solid red;
+}
+
+li:first-child a {
+    color: red; 
+}
+
+.btn-group .btn-secondary {
+    background-color: transparent;
+    border: 0px solid transparent;
+    font-size: 1rem;
+    letter-spacing: 5px;
+}
