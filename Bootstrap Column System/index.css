@@ -1,0 +1,66 @@
+.main-content {
+    background: black;
+    margin: 0 auto;
+    width: 70vw;
+    height: 100vh;
+}
+
+.container {
+    width: 50%;
+}
+
+.col {
+    margin-top: 10px;
+    border-radius: 10px;
+    height: 10vh;
+}
+
+.col1 {
+    margin-top: 25px;
+    background: green;
+}
+
+.col2 {
+    background: rgb(255,255,1);
+}
+
+.col3 {
+    background: rgb(109, 207, 246);
+}
+
+.col4 {
+    background: rgb(136,
+    18,
+    252);
+    height: 34vh;
+}
+
+.col5 {
+    background: rgb(70, 70, 70);
+}
+
+.col6 {
+    background: rgb(243,
+    101,
+    35);
+}
+
+.col7 {
+    background: rgb(161,
+    161,
+    161);
+}
+
+.col8 {
+    background: rgb(157,
+    11,
+    14);
+}
+
+.col10 {
+    background: rgb(70, 70, 70);
+}
+
+.colbg {
+    margin-top: 72px;
+}
